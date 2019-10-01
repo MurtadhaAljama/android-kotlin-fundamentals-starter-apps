@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--The ID for a menu item should be the same as the ID for the fragment.-->
+    <item
+        android:id="@+id/rulesFragment"
+        android:icon="@drawable/try_again"
+        android:title="@string/rules" />
+
+    <!--Note: If you use the same ID for
+     the menu item as for the destination fragment,
+      you don't need to write any code at all to
+      implement the onClick listener!-->
+    <item
+        android:id="@+id/aboutFragment"
+        android:icon="@drawable/about_android_trivia"
+        android:title="@string/about" />
+</menu>
